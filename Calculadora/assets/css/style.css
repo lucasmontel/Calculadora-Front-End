@@ -1,0 +1,75 @@
+*{
+    font-family: Arial, Helvetica, sans-serif ;
+    margin: 0;
+}
+
+
+.Calculadora {
+    background-image: url("../img/download\ \(1\).jfif");
+    position: absolute; /*Para que ela não interfira em nada e tenha as configurações definidas*/
+    border-radius: 10px;
+    top: 50%; /*Assim pedimos para ele abaixar  e ir até 50%*/
+    left: 50%; /*Aqui pedimos para ele ir ao lado 50%*/
+    transform: translate(-50%,-50%); /*E por fim, pedimos para ele centralizar 100% */
+}
+
+body{
+   background-image: url("../img/INVEST IN NOOT NOOT _ _r_MemeEconomy.png") ;
+}
+
+.visor input{
+    margin: 8px;
+    width: 255px;
+    height: 30px;
+    font-size: 10px;
+    text-align: left;
+    border-radius: 9px;
+
+} 
+
+.Calculadora button{
+    margin: 15px;
+    width: 35px;
+    height: 35px;
+    border-right: 3px solid rgb(23, 23, 46);
+    border-radius: 9pc;
+    
+}
+
+.especial {
+    background-color: rgb(99, 99, 211);
+    color: white;
+    cursor: pointer;
+}
+
+h1{
+text-align: center;
+color: white;
+
+
+}
+
+footer{    
+    background-color: black;
+    color: white;
+    bottom: 0;
+    position: absolute;
+    height: 9vh;
+    width: 100%;      
+    justify-content: center;
+    align-items: center;
+}
+
+
+.igual{
+    cursor: progress;
+}
+
+button {
+    cursor: pointer;
+}
+
+input{
+    cursor: progress;
+    font-size: 33px;
+}
